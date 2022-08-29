@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "z-StateOnline.Core", "z-StateOnline.Core\z-StateOnline.Core.csproj", "{DF06B6D1-F1AA-4159-8594-095A703526B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z-StateOnline.Services", "Z-StateOnline.Services\Z-StateOnline.Services.csproj", "{AE7779D3-7A34-4446-9241-730A660F763E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z-StateOnline.DataAccess.Inmemory", "Z-StateOnline.DataAccess.Inmemory\Z-StateOnline.DataAccess.Inmemory.csproj", "{B4C53824-97DF-486B-84E9-D239461D4AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z-StateOnline.DataAccess.SQL", "Z-StateOnline.DataAccess.SQL\Z-StateOnline.DataAccess.SQL.csproj", "{95CF6F89-7FB4-4AD8-863F-6F2FF5B549D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z-StateOnline.UI", "Z-StateOnline.UI\Z-StateOnline.UI.csproj", "{713DD794-DEED-47C3-B97F-DBCC64270D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z-StateOnline.UI.Tests", "Z-StateOnline.UI.Tests\Z-StateOnline.UI.Tests.csproj", "{9B8949B1-3205-4DF8-87F3-CBDD698690B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF06B6D1-F1AA-4159-8594-095A703526B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF06B6D1-F1AA-4159-8594-095A703526B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF06B6D1-F1AA-4159-8594-095A703526B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF06B6D1-F1AA-4159-8594-095A703526B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7779D3-7A34-4446-9241-730A660F763E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7779D3-7A34-4446-9241-730A660F763E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7779D3-7A34-4446-9241-730A660F763E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7779D3-7A34-4446-9241-730A660F763E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C53824-97DF-486B-84E9-D239461D4AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C53824-97DF-486B-84E9-D239461D4AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C53824-97DF-486B-84E9-D239461D4AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C53824-97DF-486B-84E9-D239461D4AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CF6F89-7FB4-4AD8-863F-6F2FF5B549D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CF6F89-7FB4-4AD8-863F-6F2FF5B549D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CF6F89-7FB4-4AD8-863F-6F2FF5B549D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CF6F89-7FB4-4AD8-863F-6F2FF5B549D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713DD794-DEED-47C3-B97F-DBCC64270D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713DD794-DEED-47C3-B97F-DBCC64270D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713DD794-DEED-47C3-B97F-DBCC64270D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713DD794-DEED-47C3-B97F-DBCC64270D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8949B1-3205-4DF8-87F3-CBDD698690B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8949B1-3205-4DF8-87F3-CBDD698690B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8949B1-3205-4DF8-87F3-CBDD698690B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8949B1-3205-4DF8-87F3-CBDD698690B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {910D0881-4DAB-4E4E-A6D4-339D22244421}
+	EndGlobalSection
+EndGlobal
